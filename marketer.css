@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    background-color: #F9F3EF;
+    margin: 0;
+    padding: 0;
+  }
+
+    h2{
+        font-size: 2em;
+        text-align: center;
+        margin: 70px auto 30px auto;
+    }
+
+    h1{
+        font-size: 1em;
+        color:indigo;
+    }
+
+    p{
+        font-size: 3em;
+    }
+
+    /*what you see to click*/
+    h3{
+        font-size: 1.35em;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+/*round edge containers*/
+#IH, #social{
+    align-items: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+	width:800px;
+	/*height:200px;*/
+	margin:30px auto 30px auto;
+	padding:15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(192, 70, 223);
+    border-radius: 20px;
+}
+
+  /*round edge containers*/
+  #Sent, #open_rate, #click_rate, #click_through_rate, #followers, #likes, #recruits{
+    align-items: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+	width:250px;
+	/*height:200px;*/
+	margin:10px auto 10px auto;
+	padding:15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(192, 70, 223);
+    border-radius: 20px;
+}
+
+
+#social_marketing, #email_marketing{
+    display: none;
+}
+
+.container{
+    align-items: center;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+  

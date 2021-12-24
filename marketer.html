@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+        crossorigin="anonymous"/>
+    <link rel="stylesheet" href="marketer.css" />
+  </head>
+  <body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="entrepreneur.html">Entrepreneur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="designer.html">Designer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="marketer.html">Marketer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="coder.html">Coder</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Languages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Coding Languages</a></li>
+                  <li><a class="dropdown-item" href="#">Speaking Languages</a></li>
+                </ul>
+              </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav bar -->
+
+      <h2 class="title"> My Marketing Experiences, Findings, & Results!</h2>
+
+      <!--stats-->
+      <div id="Introhive">
+        <div class="title_box">
+            <div id="IH">
+                <h3 id="email_click">Email Marketer @ Introhive (click me!)</h3>
+                <!--click on info-->
+                    <div id="email_marketing">
+                        <div class="container">
+                                <div id="Sent">
+                                    <h1>Sent</h1>
+                                    <p>113</p>
+                                </div>
+                        
+                                <div id="open_rate">
+                                    <h1>Open Rate</h1>
+                                    <p>45%</p>
+                                </div>
+
+                                <div id="click_rate">
+                                    <h1>Click Rate</h1>
+                                    <p>7%</p>
+                                </div>
+
+                                <div id="click_through_rate">
+                                    <h1>Click Through  Rate</h1>
+                                    <p>11%</p>
+                                </div>
+
+                        </div>
+                    </div> 
+        <!--click on info-->
+            </div>
+        </div>
+      </div>
+
+    <!--stats-->
+
+    <!--stats earthy-->
+    <div id="Dig_marketer">
+        <div class="title_box">
+            <div id="social">
+                <h3 id="social_click">Digital Marketer @ Earthy Creations</h3>
+                <!--click on info-->
+                    <div id="social_marketing">
+                        <div class="container">
+                                <div id="followers">
+                                    <h1>Followers+</h1>
+                                    <p>368%</p>
+                                </div>
+                        
+                                <div id="likes">
+                                    <h1>Likes+</h1>
+                                    <p>345%</p>
+                                </div>
+
+                                <div id="recruits">
+                                    <h1>Recruitment Rate+</h1>
+                                    <p>186%</p>
+                                </div>
+
+                        </div>
+                    </div> 
+        <!--click on info-->
+            </div>
+        </div>
+      </div>
+      <!--stats earthy-->
+
+
+
+
+      <!--email info appear-->
+    <script>
+        document.getElementById("email_click").addEventListener("click", myFunction);
+        function myFunction() {
+          var x = document.getElementById("email_marketing");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+        <!--end of email info appear-->
+
+        <!--social info appear-->
+    <script>
+        document.getElementById("social_click").addEventListener("click", myFunction);
+        function myFunction() {
+          var x = document.getElementById("social_marketing");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+        <!--end of social info appear-->
+   
+  </body>
+</html>
