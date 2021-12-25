@@ -3,6 +3,13 @@
 body{
 	background: #F9F3EF;
 }
+
+@media only screen and (min-width : 992px) {
+    .navbar {
+        height: 10rem;
+    }
+}
+
 .rw-wrapper{
 	width: 80%;
 	position: relative;
