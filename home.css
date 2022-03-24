@@ -4,6 +4,11 @@ body{
 	background: #F9F3EF;
 }
 
+.navi{
+	color:black;
+	font-size: 10px;
+}
+
 .rw-wrapper{
 	width: 80%;
 	position: relative;
